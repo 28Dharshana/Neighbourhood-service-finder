@@ -1,0 +1,11 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && ng serve\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
